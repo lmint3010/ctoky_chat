@@ -63,9 +63,14 @@ body {
 .middle-content {
     background-color: inherit;
     overflow-y: auto;
+    padding-top: 1.4rem;
 }
 
-.fr, .me { display: flex; align-items: center; }
+.fr, .me { 
+    display: flex; 
+    align-items: center; 
+    position: relative;
+}
 
 .me { justify-content: flex-end; }
 
@@ -79,6 +84,17 @@ body {
 }
 
 .fr .chat-content { background-color: #e3ecec; }
+
+.fr span, .me span {
+    font-size: 13px;
+    position: absolute;
+    top: -2px;
+    font-weight: 300;
+    text-shadow: .2px .2px .4px rgba(0,0,0, .16);
+}
+
+.fr span { left: 20px; }
+.me span { right: 20px; }
 
 .me .chat-content { background-color: dodgerblue; color: white; }
 
