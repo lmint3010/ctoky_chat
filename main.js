@@ -2,7 +2,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
     var body = document.querySelector('body');
     body.insertAdjacentHTML('afterbegin',
-    `<div id="users-toggle">
+        `<div id="users-toggle">
         <div class="one"></div>
         <div class="two"></div>
         <div class="three"></div>
@@ -12,14 +12,14 @@ document.addEventListener('DOMContentLoaded', function () {
     var userToggle = document.getElementById('users-toggle');
     var users = document.querySelector('.container .users');
     var toggleMask = document.getElementById('toggle-mask');
-    
-    userToggle.addEventListener('click', function() {
+
+    userToggle.addEventListener('click', function () {
         this.classList.toggle('active');
         users.classList.toggle('active');
         toggleMask.classList.toggle('active');
     });
 
-    toggleMask.addEventListener('click', function() {
+    toggleMask.addEventListener('click', function () {
         users.classList.remove('active');
         userToggle.classList.remove('active');
         this.classList.remove('active');
@@ -27,12 +27,12 @@ document.addEventListener('DOMContentLoaded', function () {
 
     var topDropdown = document.querySelector('.top-content .top-dropdown');
     var topDropdownContent = document.querySelector('.top-content .tools');
-    topDropdown.addEventListener('click', function(){
+    topDropdown.addEventListener('click', function () {
         topDropdownContent.classList.toggle('active');
     });
 
     var middleContent = document.querySelector('.container .middle-content');
-    middleContent.addEventListener('scroll', function() {
+    middleContent.addEventListener('scroll', function () {
         topDropdownContent.classList.remove('active');
     });
 
