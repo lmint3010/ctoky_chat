@@ -2,10 +2,13 @@
 **Author** : Lmint - Lu Minh Thong
 Bản quyền sản phẩm thuộc về cộng đồng **Coders Tokyo**
 
-## View Source
-Bạn có thể xem Demo và Source Code tại Link JSFiddle dưới đây.
+## JSFiddle Source Code
+Bạn có thể xem Source Code tại Link JSFiddle dưới đây.
 
 https://jsfiddle.net/luminhthong/7emhpj1a/8/
+
+## Live Demo
+https://lmint3010.github.io/coderstokyochat/
 
 ### Responsive Site
 Trang web có khả năng tự sắp xếp và co dãn nội dung để tương thích mọi màn hình thiết bị khác nhau.
