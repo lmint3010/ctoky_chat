@@ -1,5 +1,11 @@
 document.addEventListener('DOMContentLoaded', function () {
 
+    var container = document.querySelector('.container');
+    container.style.height = `${window.innerHeight}px`;
+    window.addEventListener('resize', function() {
+        container.style.height = `${window.innerHeight}px`;
+    })
+
     var body = document.querySelector('body');
     var topContent = document.querySelector('.top-content');
     topContent.insertAdjacentHTML('afterbegin',
