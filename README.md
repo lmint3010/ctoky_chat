@@ -1,6 +1,9 @@
 # CodersTokyo-Chat
-**Author** : Lmint - Lu Minh Thong
+**Author** : Lmint - Lư Minh Thông
+
 Bản quyền sản phẩm thuộc về cộng đồng **Coders Tokyo**
+
+Tham gia học lập trình miễn phí tại: https://coders.tokyo/tuts
 
 ## JSFiddle Source Code
 Bạn có thể xem Source Code tại Link JSFiddle dưới đây.
@@ -18,9 +21,10 @@ Hiển thị trên màn hình máy tính
 
 Hiển thị trên màn hình máy tính bảng và điện thoại
 ![Display on Desktop](picture/res1.png)
-![Display on Desktop](picture/res2.png)
-![Display on Desktop](picture/res3.png)
-![Display on Desktop](picture/res4.png)
 
-Tham gia học lập trình miễn phí tại: https://coders.tokyo/tuts
+![Display on Ipad](picture/res2.png)
+
+![Responsive](picture/res3.png)
+
+![Responsive](picture/res4.png)
 
