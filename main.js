@@ -1,7 +1,8 @@
 document.addEventListener('DOMContentLoaded', function () {
 
     var body = document.querySelector('body');
-    body.insertAdjacentHTML('afterbegin',
+    var topContent = document.querySelector('.top-content');
+    topContent.insertAdjacentHTML('afterbegin',
         `<div id="users-toggle">
         <div class="one"></div>
         <div class="two"></div>

@@ -14,7 +14,7 @@ body {
 .container {
     display: grid;
     grid-template-columns: 22% 78%;
-    grid-template-rows: 8% 76% 16%;
+    grid-template-rows: 3rem auto 5.5rem;
     height: 100vh;
 }
 
@@ -141,11 +141,12 @@ small {
     border: none;
     outline: none;
     resize: none;
-    height: 95%;
-    width: 90%;
+    height: 100%;
+    width: 100%;
     color: inherit;
     line-height: 1.3rem;
     background-color: transparent;
+    flex-grow: 1;
 }
 
 .bottom-content button {
@@ -185,7 +186,7 @@ small {
 }
 
 #users-toggle {
-    position: fixed;
+    position: absolute;
     z-index: 1000;
     cursor: pointer;
     padding: 8px;
@@ -198,7 +199,7 @@ small {
     width: 30px;
     height: 4px;
     background-color: white;
-    border-radius: 6px;
+    border-radius: 3px;
     transition: 220ms ease;
     margin: 4px 0;
 }
@@ -310,6 +311,10 @@ small {
 
     .top-content .tools.active {
         transform: scale(1);
+    }
+
+    .bottom-content button {
+        font-size: 13px;
     }
 }
 
